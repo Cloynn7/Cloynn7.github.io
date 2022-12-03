@@ -1,0 +1,243 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #d3d3d3;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+}
+
+.i-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  width: 25em;
+  height: 66em;
+  margin: 2em 0 2em 6em;
+  text-align: center;
+  font-family: arial;
+  border-radius: 35px;
+  padding: 15px 20px;
+  background-color: #ebecf0;
+}
+
+.i-card img {
+  border-radius: 35px;
+}
+
+.i-card h1 {
+  margin-top: 0.5em;
+}
+
+.i-card .jobs {
+  text-align: left;
+  margin: 0.5em 0;
+  font-size: 500;
+}
+
+.i-card .jobs p {
+  padding: 0.3em 0;
+  font-size: 17px;
+}
+
+.i-card .jobs i {
+  padding: 0 0.6em;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+/* Skills */
+
+.skill {
+  padding: 10px 0;
+}
+
+.skill h2 {
+  text-align: left;
+  margin: 0 0.3em;
+}
+
+.skill h5 {
+  text-align: left;
+  margin: 1em 2em;
+  font-weight: 100;
+}
+
+.container {
+  background-color: gray;
+  border-radius: 35px;
+}
+
+.skills {
+  padding: 0.5px 0;
+  border-radius: 35px;
+  text-align: right;
+  color: white;
+}
+
+.skills p {
+  margin: 0.2em 1em;
+}
+
+.html {
+  width: 90%;
+  background-color: #e44d26;
+}
+
+.css {
+  width: 75%;
+  background-color: #264de4;
+}
+
+.js {
+  width: 15%;
+  background-color: #f7df1e;
+}
+
+.bootstrap {
+  width: 25%;
+  background-color: #7911f7;
+}
+
+/* Languages */
+
+.lang {
+  padding: 10px 0;
+}
+
+.lang h2 {
+  text-align: left;
+  margin: 0 0.3em;
+}
+
+.lang h5 {
+  text-align: left;
+  margin: 1em 2em;
+  font-weight: 100;
+}
+
+.langu {
+  padding: 0.5px 0;
+  border-radius: 35px;
+  text-align: right;
+  color: white;
+}
+
+.lang p {
+  margin: 0.2em 1em;
+}
+
+.indo {
+  width: 100%;
+  background-color: #383838;
+}
+
+.eng {
+  width: 50%;
+  background-color: #383838;
+}
+
+/* Work Experience Card */
+
+.e-card {
+  position: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  width: 75em;
+  height: auto;
+  margin: 2em 0 2em 1em;
+  font-family: arial;
+  border-radius: 35px;
+  padding: 15px 20px;
+  background-color: #ebecf0;
+}
+
+.e-card h1 {
+  margin-bottom: 0.5em;
+  font-weight: 100;
+}
+
+.e-card h3 {
+  margin: 1em 0;
+}
+
+.e-card h5 {
+  margin: 0 1em;
+}
+
+.e-card p {
+  margin: 1em 0;
+}
+
+.badge {
+  background-color: #009688;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Education Card */
+
+.ed-card {
+  position: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  width: 75em;
+  height: auto;
+  margin: 2em 0 2em 1em;
+  font-family: arial;
+  border-radius: 35px;
+  padding: 15px 20px;
+  background-color: #ebecf0;
+}
+
+.ed-card h1 {
+  margin-bottom: 0.5em;
+  font-weight: 100;
+}
+
+.ed-card h3 {
+  margin: 1em 0;
+}
+
+.ed-card h5 {
+  margin: 0 1em;
+}
+
+.ed-card p {
+  margin: 1em 0;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  .information {
+    display: block;
+  }
+
+  .i-card {
+    width: auto;
+    height: auto;
+    margin: 1em;
+  }
+
+  /* Work Experience Card */
+  .e-card {
+    width: auto;
+    height: auto;
+    margin: 1em;
+  }
+
+  /* Education Card */
+  .ed-card {
+    width: auto;
+    height: auto;
+    margin: 1em;
+  }
+}
